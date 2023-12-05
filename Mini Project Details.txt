@@ -1,0 +1,2 @@
+google was close the 'allow less secure apps feture' on 30 may, 2022
+so we need to turn on 'two step verification' and after set the 'app password' on our google account
