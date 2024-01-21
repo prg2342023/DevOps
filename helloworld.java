@@ -7,7 +7,7 @@ class HelloWorld {
 		String userName = scanner.nextLine();
         	System.out.println("Your name is: " + userName);
 		*/
-		System.out.println("Hello, I'm Pm Gohil.")
+		System.out.println("Hello, I'm Pm Gohil.");
 	
 		int size = 5; // Adjust the size as needed
 	        // Print the top half of the smiley face
