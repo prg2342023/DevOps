@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 class HelloWorld { 
 	public static void main(String args[]) 
 	{ 
@@ -7,6 +7,6 @@ class HelloWorld {
 		String userName = scanner.nextLine();
         	System.out.println("Your name is: " + userName);
 		*/
-		System.out.println("Hello,I'm Prakash Gohil. This task performed by Jenkins linked with GitHub Repository.");
+		System.out.println("Hello, I'm Pm Gohil. This task performed by Jenkins linked with GitHub Repository.");
 	} 
 }
