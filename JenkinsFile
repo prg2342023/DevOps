@@ -1,0 +1,13 @@
+node{
+  stage('SCM Checkout'){
+    git 'https://github.com/prg2342023/DevOps'
+  }
+  stage('Compile-Package'){
+    def mvnHome = tool name: 'maven-3', type: 'maven'
+    sh "${mvnHome}/bin/mvn package"
+  }
+  stage('Email Notification'){
+    mail bcc: '', body: '''Build Status: ${currentBuild.result}
+    Build Status: ${currentBuild.number}''', cc: 'prg2342023@sicsr.ac.in', from: '', replyTo: '', subject: 'Pipeline Status: ${currentBuild.result}', to: 'pmgohil43@gmail.com'
+  }
+}
